@@ -1,6 +1,7 @@
-import "../style/home.css"
 import { List } from "@phosphor-icons/react"
-function Home() {
+import "../style/about.css"
+
+function About() {
     return (
         <>
             <header>
@@ -9,14 +10,13 @@ function Home() {
                 </div>
                 <h1>AgroGate</h1>
             </header>
-            
+
             <main>
-                <p class="Home">Uma solução baseada em Arduino para as suas hortas domésticas.</p>
+                <p class="Abt">Apresentamos o Compact Garden, um dispositivo que automatiza e monitora a sua planta a todo o momento.</p>
                 <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" alt="" />
-                <p class="Home">A AgroGate vem trabalhando no seu primeiro projeto voltado à Agricultura Doméstica para 2023.</p>
+                <p class="Abt">A AgroGate vem trabalhando no seu primeiro projeto voltado à Agricultura Doméstica para 2023.</p>
             </main>
         </>
     )
 }
-
-export default Home
+export default About

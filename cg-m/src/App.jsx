@@ -1,9 +1,11 @@
-import Home from './pages/Home'
+import { BrowserRouter } from "react-router-dom"
+import Rotas from "./Rotas"
+
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <BrowserRouter>
+      <Rotas />
+    </BrowserRouter>
   )
 }
 
