@@ -1,0 +1,15 @@
+@import "./global.css";
+
+p {
+    width: 18.4375rem;
+    height: 16rem;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #3F403F;
+    margin-top: 1.875rem;
+}
+
+img {
+    width: 22rem;
+    height: 15.875rem;
+}
