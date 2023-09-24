@@ -1,0 +1,30 @@
+@import "./global.css";
+.menu {
+    background: #475841 none repeat scroll 0% 0%;
+    width: 14rem;
+    height: 100%;
+    position: absolute;
+    transition: translate .4s;
+}
+
+.menu li  {
+    list-style: none;
+    color: #E6E8E6;
+    font-weight: 500;
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.menu.fechado {
+    translate: -100%;
+}
+
+hr {
+    border: solid 0.5px #E6E8E6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem;
+}

@@ -1,18 +1,10 @@
 import "../style/home.css"
-import { List } from "@phosphor-icons/react"
 function Home() {
     return (
         <>
-            <header>
-                <div className="menu">
-                    <button> <List size={32} /> </button>
-                </div>
-                <h1>AgroGate</h1>
-            </header>
-            
             <main>
                 <p class="Home">Uma solução baseada em Arduino para as suas hortas domésticas.</p>
-                <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" alt="" />
+                <img src="https://cdn.discordapp.com/attachments/811424378969260032/1155540840958136410/14-147325_arduino-uno-isometric-art-arduino-uno-black-and-removebg-preview_2.png" alt="" />
                 <p class="Home">A AgroGate vem trabalhando no seu primeiro projeto voltado à Agricultura Doméstica para 2023.</p>
             </main>
         </>
