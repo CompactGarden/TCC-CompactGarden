@@ -1,0 +1,52 @@
+@import "./global.css";
+@media (max-width: 768px) {
+    #title-cos {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    #img-cos {
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    #list-cos li {
+        list-style: none;
+        color: #475841;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 1rem;
+    }
+
+    .p-cos {
+        font-size: 1.45rem;
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) {
+    #title-cos {
+        font-size: 2.3rem;
+    }
+
+    .p-cos {
+        font-size: 1.555rem;
+        width: 75%;
+        margin: 1rem 0;
+    }
+
+    #img-cos {
+        width: 30%;
+        border-radius: 12px;
+        margin: 2rem;
+    }
+    
+
+    #list-cos li {
+        list-style: none;
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: #475841;
+        margin: 2rem;
+    }
+}

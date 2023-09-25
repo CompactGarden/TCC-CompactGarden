@@ -1,15 +1,44 @@
 @import "./global.css";
+@media (max-width: 768px) {
+    .p-home {
+        width: 80%;
+        height: 100%;
+        font-size: 1.875rem;
+        font-weight: 300;
+        color: #3F403F;
+    }
 
-.Home {
-    width: 18.4375rem;
-    height: 16rem;
-    font-size: 2rem;
-    font-weight: 300;
-    color: #3F403F;
-    margin-top: 1.875rem;
+    #arduino {
+        margin-top: .5rem;
+        width: 80%;
+    }
+
+    #estrutura {
+        margin-top: .5rem;
+        width: 70%;
+        border-radius: 10px;
+    }
 }
 
-img {
-    width: 22rem;
-    height: 15.875rem;
+@media (min-width: 769px) {
+
+    .p-home {
+        margin: 1rem;
+        font-size: 1.875rem;
+        width: 70%;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .p-home:last-child{
+        margin-bottom: 5rem;
+    }
+    
+    #arduino {
+        width: 45%;
+    }
+
+    #estrutura {
+        width: 25%;
+    }
 }

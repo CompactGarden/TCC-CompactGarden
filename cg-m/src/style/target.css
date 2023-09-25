@@ -1,0 +1,39 @@
+@import './global.css';
+/*Mobile*/
+@media (max-width: 768px) {
+    #title-tar {
+        font-size: 1.725rem;
+    }
+
+    
+    #img-tar {
+        width: 60%;
+    }
+
+    .p-tar {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+}
+/*Desktop*/
+@media (min-width: 769px) {
+    #main-tar {
+        height: calc(100vh - 7.6rem);
+    }
+
+    #title-tar {
+        font-size: 2.3rem;
+    }
+
+    .p-tar {
+        font-size: 1.55rem;
+        width: 55%;
+        margin: 1.4rem;
+        text-align: center;
+    }
+
+    #img-tar {
+        border-radius: 12px;
+        width: 40%;
+    }
+}

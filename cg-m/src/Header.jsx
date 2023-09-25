@@ -12,7 +12,6 @@ function Header() {
         setOc(true)
     }
 
-
     return (
         <>
             <header>
@@ -24,12 +23,12 @@ function Header() {
             <div className={`menu ${oc == true ? '' : 'fechado'}`}>
                 <hr />
                 <nav>
-                    <ul>
-                        <li>item1</li>
-                        <li>item2</li>
-                        <li>item3</li>
-                        <li>item4</li>
-                        <li>item5</li>
+                    <ul id='ul'>
+                        <li><a href="/">Página Principal</a></li>
+                        <li><a href="/diferenciais">Diferenciais do nosso projeto</a></li>
+                        <li><a href="/custos">Custos e componentes</a></li>
+                        <li><a href="/sobre">Mais sobre a AgroGate</a></li>
+                        <li><a href="/publico-alvo">Publico Alvo</a></li>
                     </ul>
                 </nav>
             </div>

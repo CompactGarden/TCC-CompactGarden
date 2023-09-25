@@ -1,43 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    header {
+        font-weight: 700;
+        color: #E6E8E6;
+        background-color: #475841;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    main {
+        background-color: #9FB8AD;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    h2 {
+        margin: 2rem 0 0.2rem 0;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        color: #3F403F;
+    }
+
+    button {
+        display: flex;
+        border: none;
+        background: none;
+        color: #E6E8E6;
+        padding-left: 0.5rem;
+        padding-right: -0.5rem;
+    }
+
+    button:hover {
+        color: #9FB8AD;
+    }
+
+    p {
+        font-size: 1.875rem;
+        font-weight: 300;
+        color: #3F403F;
+        margin: 1.875rem 0;
+    }
 }
 
-header {
-    font-weight: 700;
-    color: #E6E8E6;
-    background-color: #475841;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-}
+@media (min-width: 769px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
 
-main {
-    height: 73.375rem;
-    background-color: #9FB8AD;
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
+    main {
+        background-color: #9FB8AD;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-h1 {
-    width: 100%;
-    text-align: center;
-}
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
 
-button {
-    display: flex;
-    border: none;
-    background: none;
-    color: #E6E8E6;
-    padding-left: 0.5rem;
-    padding-right: -0.5rem;
-}
+    h2 {
+        margin: 2rem 0 0.2rem 0;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        color: #3F403F;
+    }
 
-button:hover {
-    color: #9FB8AD;
+    p {
+        font-weight: 300;
+        color: #3F403F;
+    }
 }
