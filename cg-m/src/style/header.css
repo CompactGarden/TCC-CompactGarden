@@ -23,7 +23,7 @@
     }
 
     hr {
-        border: solid 0.5px #E6E8E6;
+        border: solid 0.5px #5b725b;
     }
 
     nav {
@@ -54,15 +54,15 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-color: #88AD7B;
+        background-color: #475841;
         height: 2.5rem;
         list-style: none;
     }
 
     .menu,a {
         text-decoration: none;
-        color: #3f403f;
-        font-weight: 600;
+        color: #E6E8E6;
+        font-weight: 400;
         font-size: 0.9rem;
     }
 }

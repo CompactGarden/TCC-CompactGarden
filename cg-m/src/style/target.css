@@ -14,11 +14,14 @@
         font-size: 1.5rem;
         width: 80%;
     }
+    #main-tar {
+        height: calc(100vh - 5rem);
+    }
 }
 /*Desktop*/
 @media (min-width: 769px) {
     #main-tar {
-        height: calc(100vh - 7.6rem);
+        height: calc(100vh - 7.5rem);
     }
 
     #title-tar {
