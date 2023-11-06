@@ -1,7 +1,10 @@
 import '../style/about.css'
+import Header from '../Header'
 
 function About() {
     return (
+        <>
+        <Header />
         <main id='main-abt'>
             <h2 class="title-abt">Sobre a AgroGate®</h2>
 
@@ -61,6 +64,7 @@ function About() {
                 <span>UNASP - Campus - SP</span>
             </div>
         </main>
+        </>
     )
 }
 export default About

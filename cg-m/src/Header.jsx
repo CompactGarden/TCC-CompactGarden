@@ -1,6 +1,7 @@
 import './style/header.css'
 import { useState } from 'react'
 import { List, X } from "@phosphor-icons/react"
+import { Link } from 'react-router-dom'
 
 function Header() {
     const [oc, setOc] = useState(false)
@@ -23,12 +24,12 @@ function Header() {
             <div className={`menu ${oc == true ? '' : 'fechado'}`}>
                 <hr />
                 <nav>
-                    <ul id='ul'>
-                        <li><Link to={'/'}>Página Principal</Link></li>
-                        <li><Link to={'/diferenciais'}>Diferenciais do nosso projeto</Link></li>
-                        <li><Link to={'/custos'}>Custos e componentes</Link></li>
-                        <li><Link to={'/sobre'}>Mais sobre a AgroGate</Link></li>
-                        <li><Link to={'/publico-alvo'}>Publico Alvo</Link></li>
+                    <ul>
+                        <li><Link to={'/'} style={{textDecoration: 'none', color: '#E6E8E6'}}>Home</Link></li>
+                        <li><Link to={'/diferenciais'} style={{textDecoration: 'none', color: '#E6E8E6'}}>Diferenciais</Link></li>
+                        <li><Link to={'/custos'} style={{textDecoration: 'none', color: '#E6E8E6'}}>Custos</Link></li>
+                        <li><Link to={'/publico-alvo'} style={{textDecoration: 'none', color: '#E6E8E6'}}>Publico Alvo</Link></li>
+                        <li><Link to={'/sobre'} style={{textDecoration: 'none', color: '#E6E8E6'}}>Sobre</Link></li>
                     </ul>
                 </nav>
             </div>

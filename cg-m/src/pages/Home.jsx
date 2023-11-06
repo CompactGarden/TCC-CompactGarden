@@ -1,6 +1,10 @@
 import "../style/home.css"
+
+import Header from '../Header'
 function Home() {
     return (
+        <>
+        <Header />
             <main>
                 <p className="p-home">Uma solução baseada em Arduino para as suas hortas domésticas.</p>
                 
@@ -12,6 +16,7 @@ function Home() {
                 
                 <p className="p-home">Apresentamos o CompactGarden, um dispositivo que automatiza e monitora a sua plantação a todo o momento.</p>
             </main>
+            </>
     )
 }
 

@@ -1,7 +1,10 @@
 import "../style/costs.css"
+import Header from '../Header'
 
 function Costs() {
     return (
+        <>
+        <Header />
            <main>
                 <h2 id="title-cos">Custos e componentes</h2>
                 <img id="img-cos"src="https://cdn.discordapp.com/attachments/882373576676753519/1155660906802462740/image.png" alt="" />
@@ -15,6 +18,7 @@ function Costs() {
                     <li>Bateria (9V) - ~R$10,00</li>
                 </ul>
            </main>
+           </>
     )
 }
 export default Costs
