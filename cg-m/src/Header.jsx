@@ -24,11 +24,11 @@ function Header() {
                 <hr />
                 <nav>
                     <ul id='ul'>
-                        <li><a href="/">Página Principal</a></li>
-                        <li><a href="/diferenciais">Diferenciais do nosso projeto</a></li>
-                        <li><a href="/custos">Custos e componentes</a></li>
-                        <li><a href="/sobre">Mais sobre a AgroGate</a></li>
-                        <li><a href="/publico-alvo">Publico Alvo</a></li>
+                        <li><Link to={'/'}>Página Principal</Link></li>
+                        <li><Link to={'/diferenciais'}>Diferenciais do nosso projeto</Link></li>
+                        <li><Link to={'/custos'}>Custos e componentes</Link></li>
+                        <li><Link to={'/sobre'}>Mais sobre a AgroGate</Link></li>
+                        <li><Link to={'/publico-alvo'}>Publico Alvo</Link></li>
                     </ul>
                 </nav>
             </div>
