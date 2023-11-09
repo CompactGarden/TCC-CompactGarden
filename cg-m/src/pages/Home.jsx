@@ -6,7 +6,7 @@ function Home() {
         <>
         <Header />
             <main>
-                <p className="p-home">Uma solução baseada em Arduino para as suas hortas domésticas.</p>
+                <p className="p-home">Uma solução baseada em Arduino para as suas plantações domésticas.</p>
                 
                 <img id="arduino" src="https://cdn.discordapp.com/attachments/811424378969260032/1155540840958136410/14-147325_arduino-uno-isometric-art-arduino-uno-black-and-removebg-preview_2.png" alt="" />
                 

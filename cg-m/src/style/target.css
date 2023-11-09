@@ -21,7 +21,7 @@
 /*Desktop*/
 @media (min-width: 769px) {
     #main-tar {
-        height: calc(100vh - 7.5rem);
+        height: 100%;
     }
 
     #title-tar {
